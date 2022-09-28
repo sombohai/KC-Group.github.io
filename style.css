@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/banner.png');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav.link{
+    display: block;
+    text-align: left;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    /* text-align: right; */
+    padding: 8px 12px;
+
+}
+.nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c4b319;
+    /* color: #c4b319; */
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 20px 0px;
+    color: #fff;
+}
+.my-link{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    padding: 12px 35px;
+    transition: 0.5s;
+}
+.my-link:hover{
+    background: #c4b319;
+    box-shadow: 0px 0px 5px #000 ;
+
+}
+.course{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+   
+
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: #3d3d3d;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .course-col{
+    flex-basis: 30%;
+    background: rgb(75, 165, 255);
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 5%;
+
+}
+.row .course-col:hover{
+    box-shadow: 0px 0px 10px #000;
+    transition: 0.5s;
+}
+.row .course-col h3{
+    text-transform: capitalize;
+}
+.campus{
+   
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+.campus-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden ;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+.campus-col .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.campus-col .layer:hover{
+    background-color: rgba(4,69,115, 0.563);
+}
+.campus-col .layer h3{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.campus-col .layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+
+}
+.facilites{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+.facilites-col{
+    flex-basis: 30%;
+    /* border-radius: 10px; */
+    text-align: left;
+
+
+}
+.facilites-col img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #3d3d3d;
+}
+.student{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+.student-col{
+    flex-basis: 44%;
+    background: #5d96ff;
+    text-align: left;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+}
+.student-col img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.Enroll{
+    width: 80%;
+    margin: 5% auto;
+    /* margin-top: 5%; */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Enroll h1{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background: #084573;
+    padding: 50px 0px;
+}
+.footer h4{
+    color: #fff;
+}
+.footer p{
+    color: rgb(207, 207, 207);
+}
+    
+    
+  
+    
+
+
+
